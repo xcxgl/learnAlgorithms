@@ -49,6 +49,7 @@ public class MergeSort_noGuard {
 			if(i > n1 - 1 || j > n2 - 1)
 				break;
 		}
+		//剩余部分直接复制入A
 		for(int m = i; m < n1; m++)
 			A[++k] = L[m];
 		for(int n = j; n < n2; n++)
