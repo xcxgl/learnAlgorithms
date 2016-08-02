@@ -1,9 +1,16 @@
 package foundations;
 
+/**
+ * First Part  Foundations
+ * Chapter 2  Getting Started
+ * Page 18 INSERTION-SORT
+ * 
+ */
+
 public class InsertionSort {
 	static void sort(int array[]){
 		for(int i = 1; i < array.length; i++){
-			//key为本轮要插入的数字
+			//key表示本轮要插入的数字
 			int key = array[i];
 			int j = i - 1;
 			//大于key的数向后移
