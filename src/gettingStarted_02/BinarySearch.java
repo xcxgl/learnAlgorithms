@@ -24,8 +24,6 @@ public class BinarySearch {
 			search(A, p, r ,v);
 		else
 			search(A, r+1, q, v);
-		
-		return;
 	}
 	
 	public static void main(String[] args){
