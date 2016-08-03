@@ -20,7 +20,13 @@ public class BinarySearch {
 				return ;
 		}
 		int r = (p + q) / 2;
-		if(v <= A[r])
+	//if(v <= A[r])
+		//先判断v == A[r]在一些情况下可以节省运行时间
+		if(v == A[r]){
+			System.out.println(r);
+			return;
+		}
+		else if(v < A[r])
 			search(A, p, r ,v);
 		else
 			search(A, r+1, q, v);
