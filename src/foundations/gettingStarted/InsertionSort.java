@@ -1,4 +1,4 @@
-package gettingStarted_02;
+package foundations.gettingStarted;
 
 /**
  * First Part  Foundations
